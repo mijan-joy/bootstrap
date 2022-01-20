@@ -9,13 +9,41 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="navigation py-2">
+    <!-- <header class="navigation py-2">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="#feature">Features</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="#download">Download</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link btn rounded-pill background-gradient text-white px-3" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                                </svg>
+                                Send Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header> -->
+    <header class="navigation sticky-top py-2 bg-light shadow"">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" >
             <div class="container">
-            <a class="navbar-brand" href="#">
-                <img  src="img/tnw-logo.svg " width="40" height="40" class="d-inline-block align-top" alt="">
-                Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#">Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           
@@ -23,14 +51,14 @@
               <ul class="navbar-nav ms-auto">
                
                 <li class="nav-item mx-3">
-                  <a class="nav-link" href="#">Feature</a>
+                  <a class="nav-link" href="#feature">Feature</a>
                 </li>
                
-                <li class="nav-item">
-                  <a class="nav-link " href="#">Download</a>
+                <li class="nav-item mx-3">
+                  <a class="nav-link " href="#download">Download</a>
                 </li>
                 <li class="nav-item mx-3">
-                    <a class="nav-link btn rounded-bottom background-gradient text-white px-3" href="#">
+                    <a class="nav-link btn rounded-pill background-gradient text-white px-3" href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -143,11 +171,37 @@
                     </div>
                 </div>
             </div>
-
+        </section>
+        <section class="stop-writing">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="d-flex flex-column justify-content-center h-100 align-items-start ">
+                            <h1 class="display-2 text-white">Stop waiting. Start building.</h1>
+                        <a href="#" class="btn btn-outline-light rounded-pill py-3 px-4">Download For Free</a>
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+        </section>
+        <section id="download" class="background-gradient py-5">
+            <div class="py-5 d-flex flex-column justify-content-center align-items-center">
+                <h1 class="text-white text-center">Get the app now!</h1>
+                <div>
+                    <a href="http://">
+                        <img src="img/google-play.png" alt="">
+                    </a>
+                    <a href="http://">
+                        <img src="img/app-store.png" alt="">
+                    </a>
+                </div>
+            </div>
         </section>
     </main>
-
-
+    <footer class="bg-dark py-3 text-center">
+        <small class="text-white">&copy; All Right Reserved <span>Developed<a href="#mijan" class="text-decoration-none"> Mijan</a></span> By Porgramming Hero </small>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
